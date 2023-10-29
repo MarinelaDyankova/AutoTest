@@ -42,7 +42,7 @@ public class MainPageTest {
         mainPage.getAppropriatePlan(driver);
 
 
-//        mainPage.verifyBasket(driver);
+        mainPage.verifyBasket(driver);
 
         mainPage.cartButtonContinue.click();
         mainPage.getAccessories(driver);
@@ -50,7 +50,7 @@ public class MainPageTest {
         mainPage.applePhonePlusFine.click();
         mainPage.addAccToCart.click();
 
-//        mainPage.verifyBasket(driver);
+        mainPage.verifyBasket(driver);
 
         mainPage.checkSumOrder(driver);
 
